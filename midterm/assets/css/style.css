@@ -1,0 +1,183 @@
+body {
+    background: #0a0734;
+}
+
+p {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Imbue", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    background-color: #F28A0F;
+    font-size: 40px;
+    border-radius: 10px;
+    font-family: "Luckiest Guy", sans-serif;
+}
+
+h5 {
+    font-family: "ABeeZee", sans-serif; 
+    font-size: 15px; 
+    justify-content: center;
+    margin-left: 10%;
+}
+
+#navbar {
+	height: 85px;
+	background: #FFE7BD;
+    font-family: "Imbue", sans-serif;
+    font-size: 40px;
+}
+
+.navbar-item {
+    float: left;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #0a0734;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+
+.navbar-item:hover {
+    font-size: 45px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+#mission {
+    margin-top: 30px;
+    font-family: "Work Sans", sans-serif;
+    background-color: #0C5679;
+    border-radius: 10px;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 500px;
+    height: 300px;
+    margin-left: 190px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+#story {
+    margin-top: 30px;
+    font-family: "Work Sans", sans-serif;
+    background-color: #3F8A8C;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 500px;
+    height: 310px;
+    margin-bottom: 50px;
+}
+
+
+#Banner {
+    position: relative;
+    text-align: center;
+}
+
+.hotdog-banner {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.caption {
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    font-family: "Imbue", sans-serif;
+    font-size: 40px;
+    color:aliceblue; 
+}
+
+#order {
+    display: flex; 
+    align-items: center;
+}
+
+.hungry {
+    bottom: 100px;
+    left: 100px; 
+
+}
+
+.sausageboy {
+    margin-left: 350px;
+}
+
+.container {
+    background: black;
+    display: inline-block;
+    border: 50px solid black;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    margin-left: 350px;
+    margin-top: 50px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 50px;
+}
+
+.item {
+   display: flex;
+   color: aliceblue;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: Imbue;
+   font-size: 30px;
+   font-weight: bold;
+   background: #F28A0F;
+   border-radius: 10px;
+ }
+
+ .item:hover {
+    opacity: 0%;
+    transition: 0.2s; 
+    
+ }
+
+ #red {
+    background: #E5340B;
+ }
+
+ #lightblue {
+    background: #3F8A8C;
+ }
+
+ #blue {
+    background: #0C5679;
+ }
+
+ #orange {
+    background: #F28A0F;
+ }
+
+ #white {
+    background: #FFE7BD;
+    color: #0a0734;
+ }
